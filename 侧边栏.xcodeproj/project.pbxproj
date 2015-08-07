@@ -12,6 +12,11 @@
 		BCD8BC201B6D47AC004770E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD8BC1F1B6D47AC004770E9 /* Images.xcassets */; };
 		BCD8BC231B6D47AC004770E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD8BC211B6D47AC004770E9 /* LaunchScreen.xib */; };
 		BCD8BC2F1B6D47AC004770E9 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8BC2E1B6D47AC004770E9 /* ___Tests.m */; };
+		BCD8BC411B6D4E45004770E9 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8BC401B6D4E45004770E9 /* DDMenuController.m */; };
+		BCD8BC451B6D4E8A004770E9 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8BC441B6D4E8A004770E9 /* LeftViewController.m */; };
+		BCD8BC481B6D4EAE004770E9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8BC471B6D4EAE004770E9 /* MainViewController.m */; };
+		BCD8BC4A1B6D5289004770E9 /* nav_menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD8BC491B6D5289004770E9 /* nav_menu_icon@2x.png */; };
+		BCD8BC4D1B6D621C004770E9 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD8BC4C1B6D621C004770E9 /* RightViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 		BCD8BC281B6D47AC004770E9 /* 侧边栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "侧边栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD8BC2D1B6D47AC004770E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD8BC2E1B6D47AC004770E9 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		BCD8BC401B6D4E45004770E9 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+		BCD8BC431B6D4E8A004770E9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = "侧边栏/LeftViewController.h"; sourceTree = "<group>"; };
+		BCD8BC441B6D4E8A004770E9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = "侧边栏/LeftViewController.m"; sourceTree = "<group>"; };
+		BCD8BC461B6D4EAE004770E9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BCD8BC471B6D4EAE004770E9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BCD8BC491B6D5289004770E9 /* nav_menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_menu_icon@2x.png"; sourceTree = "<group>"; };
+		BCD8BC4B1B6D621C004770E9 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		BCD8BC4C1B6D621C004770E9 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,8 @@
 		BCD8BC0C1B6D47AC004770E9 = {
 			isa = PBXGroup;
 			children = (
+				BCD8BC421B6D4E5C004770E9 /* Controllers */,
+				BCD8BC3E1B6D4E45004770E9 /* DDMenuController库 */,
 				BCD8BC171B6D47AC004770E9 /* 侧边栏 */,
 				BCD8BC2B1B6D47AC004770E9 /* 侧边栏Tests */,
 				BCD8BC161B6D47AC004770E9 /* Products */,
@@ -109,6 +124,29 @@
 				BCD8BC2D1B6D47AC004770E9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD8BC3E1B6D4E45004770E9 /* DDMenuController库 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8BC3F1B6D4E45004770E9 /* DDMenuController.h */,
+				BCD8BC401B6D4E45004770E9 /* DDMenuController.m */,
+			);
+			path = "DDMenuController库";
+			sourceTree = "<group>";
+		};
+		BCD8BC421B6D4E5C004770E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8BC491B6D5289004770E9 /* nav_menu_icon@2x.png */,
+				BCD8BC431B6D4E8A004770E9 /* LeftViewController.h */,
+				BCD8BC441B6D4E8A004770E9 /* LeftViewController.m */,
+				BCD8BC461B6D4EAE004770E9 /* MainViewController.h */,
+				BCD8BC471B6D4EAE004770E9 /* MainViewController.m */,
+				BCD8BC4B1B6D621C004770E9 /* RightViewController.h */,
+				BCD8BC4C1B6D621C004770E9 /* RightViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD8BC4A1B6D5289004770E9 /* nav_menu_icon@2x.png in Resources */,
 				BCD8BC231B6D47AC004770E9 /* LaunchScreen.xib in Resources */,
 				BCD8BC201B6D47AC004770E9 /* Images.xcassets in Resources */,
 			);
@@ -210,8 +249,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD8BC411B6D4E45004770E9 /* DDMenuController.m in Sources */,
+				BCD8BC451B6D4E8A004770E9 /* LeftViewController.m in Sources */,
 				BCD8BC1E1B6D47AC004770E9 /* AppDelegate.m in Sources */,
+				BCD8BC481B6D4EAE004770E9 /* MainViewController.m in Sources */,
 				BCD8BC1B1B6D47AC004770E9 /* main.m in Sources */,
+				BCD8BC4D1B6D621C004770E9 /* RightViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
