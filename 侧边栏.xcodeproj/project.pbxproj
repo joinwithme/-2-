@@ -40,6 +40,7 @@
 		BCD8BC281B6D47AC004770E9 /* 侧边栏Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "侧边栏Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD8BC2D1B6D47AC004770E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCD8BC2E1B6D47AC004770E9 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		BCD8BC3F1B6D4E45004770E9 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
 		BCD8BC401B6D4E45004770E9 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
 		BCD8BC431B6D4E8A004770E9 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = "侧边栏/LeftViewController.h"; sourceTree = "<group>"; };
 		BCD8BC441B6D4E8A004770E9 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = "侧边栏/LeftViewController.m"; sourceTree = "<group>"; };
